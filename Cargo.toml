@@ -1,6 +1,9 @@
 [package]
 name = "peersity-api"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 
 [dependencies]
+
+[dev-dependencies]
+cargo-watch = "7.3.1"

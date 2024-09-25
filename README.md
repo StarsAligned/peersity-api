@@ -9,5 +9,5 @@ cargo build
 
 Running:
 ```console
-cargo run
+cargo watch -x 'run'
 ```
