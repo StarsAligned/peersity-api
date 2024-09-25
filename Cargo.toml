@@ -1,9 +1,15 @@
 [package]
 name = "peersity-api"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 
 [dependencies]
+actix-web = "4"
+config = "0.14"
+dotenvy = "0.15"
+actix-cors = "0.7"
+derive_more = "0.99"
+serde = { version = "1.0", features = ["derive"] }
 
 [dev-dependencies]
 cargo-watch = "7.3.1"
